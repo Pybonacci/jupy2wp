@@ -10,7 +10,7 @@ itself on a wordpress site using xmlrpc.
 Installation
 ============
 
-* Download the repo
+Download the repo
 
     cd jupy2wp
     pip install .
