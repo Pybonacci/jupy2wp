@@ -15,6 +15,10 @@ Download the repo
     cd jupy2wp
     pip install .
 
+or 
+
+    pip install git+https://github.com/Pybonacci/jupy2wp.git
+
 Usage
 =====
 
@@ -38,7 +42,7 @@ You have the following options:
 
 A complete example would be:
 
-    python -m jupy2wp --xmlrpc-url http://pybonacci.org/xmlrpc.php --user kiko --password 1_2_oh_my_god!!! --nb 'dummy.ipynb' --title 'The best post ever' --categories articles tutorials --tags strawberry lucy jupyter --template basicx
+    python -m jupy2wp.jupy2wp --xmlrpc-url http://pybonacci.org/xmlrpc.php --user kiko --password 1_2_oh_my_god!!! --nb 'dummy.ipynb' --title 'The best post ever' --categories articles tutorials --tags strawberry lucy jupyter --template basicx
 
 * It works on Jupyter 4.0+  and Python 2.7+ and 3.3+*
 
